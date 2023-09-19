@@ -1,0 +1,391 @@
+@media all and (max-width: 1200px) {
+     .wealthy {
+         height: 20rem;
+    }
+     .popular-content {
+         height: 28rem;
+    }
+     .thumnail {
+         padding: 0rem;
+    }
+     .tatu-img {
+         padding-right: 1rem;
+    }
+     .tatu-img img {
+         max-width: 8rem;
+    }
+     .tatu-content p {
+         font-size: 1.5rem;
+    }
+     .from-link {
+         flex-basis: 12rem;
+    }
+     .from-link a.btn {
+         padding: 1rem 0rem;
+         font-size: 1.3rem;
+         color: #00010D;
+         font-weight: 400;
+    }
+     .thumnail a {
+         padding-top: 1rem;
+    }
+     .chose-content h2 {
+         font-size: 4.6rem;
+         color: white;
+         line-height: 6rem;
+    }
+     .choose-area img {
+         max-width: 30.4rem;
+    }
+     .socal-icon {
+         flex-basis: 41rem;
+    }
+    .gallary .popular-content {
+    height: 25rem;
+}
+    .gallary .wealthy {
+    height: 17rem;
+}
+
+}
+ @media all and (max-width: 991px) {
+     .popular-content {
+         height: 24rem;
+    }
+     .wealthy {
+         height: 16rem;
+    }
+     .tatu-area {
+         grid-template-columns: repeat(2, 1fr);
+    }
+     .socal-icon {
+         flex-basis: 20rem;
+    }
+.header-icon {
+    padding: .5rem;
+    top: 6.5rem;
+}
+.header-icon input[type="search"] {
+    padding: 0.2rem 1rem;
+    font-size: 1.6rem;
+}
+.gallary {
+    grid-template-columns: repeat(3,1fr);
+}
+.png img {
+    max-width: 30rem;
+}
+.button-stap .btn, .hori .btn {
+    padding: 1.2rem 2rem;
+}
+.nft-button {
+    padding: 1rem 0;
+}
+.formator .png img {
+    max-width: 29rem;
+}
+.png::after {
+    width: 19rem;
+    height: 23rem;
+    top: 3rem;
+}
+.carts {
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 32rem;
+    width: 100%;
+}
+.Shipping-area {
+    max-width: 30rem;
+    width: 100%;
+}
+.card-img {
+    text-align: center;
+}
+.card-img img {
+    margin-bottom: 4rem;
+}
+
+.yourid {
+    max-width: 43rem;
+    width: 100%;
+}
+
+}
+ @media all and (max-width: 767px) {
+     .wealthy {
+         height: 20rem;
+    }
+     .popular-content {
+         height: 28rem;
+    }
+     .cryptos {
+         grid-template-columns: repeat(3, 1fr);
+         grid-row-gap: 4rem;
+    }
+     .cry:last-child {
+         grid-column: 2/span 1;
+    }
+     .footer {
+         display: grid;
+         grid-template-columns: repeat(2,1fr);
+         grid-row-gap: 4rem;
+         grid-column-gap: 4rem;
+    }
+     .footer-area {
+         padding: 4rem 0rem;
+    }
+    .nft-logos {
+    flex-direction: column;
+}
+.header-serch {
+    order: -1;
+    justify-content: flex-end;
+    margin-bottom: 2rem;
+}
+.header-icon {
+    padding: .5rem;
+    top: 0rem;
+    left: 2rem;
+}
+.gallary {
+    grid-template-columns: repeat(2,1fr);
+}
+.gallary .popular-content {
+    height: 23rem;
+}
+.gallary .wealthy {
+    height: 15rem;
+}
+.formator .png img {
+    max-width: 43rem;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+.png::after {
+    width: 33rem;
+    height: 37rem;
+}
+.png::before {
+    width: 22.2rem;
+    height: 38.2rem;
+    left: -12.5rem;
+    bottom: -6rem;
+    filter: blur(74px);
+}
+.carts {
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 40rem;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+.shipings {
+    justify-content: center;
+    flex: 0 0 auto;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.Shipping-area {
+    max-width: 44rem;
+    width: 100%;
+}
+.ship-dairy {
+    align-items: center;
+}
+.qr-code, .black {
+    margin: auto;
+}
+}
+ @media all and (max-width: 575px) {
+    .header-icon {
+    max-width: 30rem;
+    width: 100%;
+}
+     .wealthy {
+         height: 16rem;
+    }
+     .popular-content {
+         height: 24rem;
+    }
+     .printed h4 {
+         padding: 0rem 0rem 9rem 0rem;
+         text-align: center;
+    }
+     .logo-area::after {
+         right: -22rem;
+         background: radial-gradient(80.36% 79.1% at 18.69% 47.65%, #8B16FF 0%, #2D9AFF 80%);
+    }
+     .header-content-area::before {
+         position: absolute;
+         content: "";
+         top: -13rem;
+         left: -24rem;
+         width: 424px;
+         height: 233px;
+         background: radial-gradient(80.36% 79.1% at 18.69% 43.65%, #1DFAB8 0%, #2D9AFF 90%, #8B16FF 70%);
+         filter: blur(5rem);
+    }
+     .popular-carousel .owl-nav i {
+         right: 1rem;
+    }
+     .choose-area {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+         padding: 1rem 0rem 7rem 0;
+    }
+     .chose-content {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+    }
+     .chose-content::before {
+         right: 0;
+         margin: auto;
+         top: -1rem;
+    }
+     .chose-content {
+         order: -1;
+    }
+     .chose-content::after {
+         bottom: 9rem;
+         left: -15rem;
+         width: 340px;
+         height: 198px;
+         background: radial-gradient(80.36% 79.1% at 18.69% 43.65%, #1DFAB8 0%, #2D9AFF 90%, #8B16FF 30%);
+         filter: blur(5rem);
+    }
+     .chose-content h2 {
+         font-size: 3.6rem;
+    }
+     .choose-area img {
+         margin-top: 5rem;
+    }
+     .popular-carousel .owl-nav i {
+         right: 50%;
+         transform: translateX(50%);
+    }
+}
+ @media all and (max-width: 480px) {
+    .header-icon i {
+    padding: 0rem 0rem 0rem .5rem;
+}
+    .header-icon {
+    max-width: 21rem;
+    width: 100%;
+}
+     .logo a {
+         justify-content: center;
+    }
+     h1 {
+         font-size: 3.5rem;
+    }
+     .logo-content h5 {
+         text-align: center;
+         line-height: 2.1rem;
+         max-width: 28rem;
+         width: 100%;
+         margin: auto;
+    }
+     .thumnail {
+         padding: 1rem 0rem;
+    }
+     .thumnail a {
+         padding-top: 2rem;
+    }
+     .tatu-area {
+         grid-template-columns: repeat(1, 1fr);
+    }
+     .thumb-img {
+         flex-direction: column;
+    }
+     .tatu-img {
+         padding-right: 0;
+         padding-bottom: 2rem;
+    }
+     .tatu-img img {
+         max-width: 43rem;
+         width: 100%;
+    }
+     .from-link {
+         flex-basis: 14rem;
+    }
+     .from-link a.btn {
+         font-size: 1.6rem;
+    }
+     .cryptos {
+         grid-row-gap: 2rem;
+    }
+     .footer {
+         display: flex;
+         flex-wrap: wrap;
+    }
+     .socal-icon {
+         flex-basis: 100%;
+         text-align: center;
+    }
+     .icon i {
+         margin: 1rem;
+         padding: 0.5rem 0rem;
+    }
+     .chose-content h2 {
+         font-size: 3.6rem;
+    }
+    h4 {
+		text-align: center;
+	}
+	.popular-content {
+		height: 32rem;
+	}
+	.wealthy {
+		height: 24rem;
+	}
+    .gallary {
+    grid-template-columns: repeat(1,1fr);
+}
+.gallary .popular-content {
+    height: 18rem;
+}
+.gallary .wealthy {
+    height: 10rem;
+}
+.gallary .popular-item {
+    max-width: 37rem;
+    width: 100%;
+    margin: auto;
+}
+.club-header h2 {
+    font-size: 3.5rem;
+    line-height: 5rem;
+}
+.button-stap .btn, .hori .btn {
+    padding: 1rem 2rem;
+    margin: 0;
+}
+.code-png h2 {
+    text-align: center;
+}
+.chose-nft {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 1rem;
+}
+.chose-nft a {
+    padding: 1.2rem 0rem;
+}
+.formator .png img {
+    max-width: 27rem;
+}
+.png::after {
+    width: 23rem;
+    height: 25rem;
+    top: 1rem;
+    left: 2rem;
+}
+.ship-int h4, .post-int h4 {
+    text-align: left;
+}
+}
